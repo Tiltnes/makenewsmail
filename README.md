@@ -10,12 +10,13 @@ Make Newsmail is a software as a service that provides a clean and easy to under
 
 Visit [Make Newsmail](http://www.makenewsmail.com) to learn more.
 
-Usage
----------------
+## Usage
 
 Create an instance:
 
     make = Makenewsmail::Client.new("account_email","api_key")
+
+### Subscriberlist handling
     
 Get your subscriberlists:
 
@@ -24,6 +25,8 @@ Get your subscriberlists:
 Create a new subscriberlist:
 
     make.create_list(title: "New list")
+
+### Subscribers handling
     
 Create or update a subscriber to a subscriberlist:
 
