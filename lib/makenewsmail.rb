@@ -1,5 +1,5 @@
+require "httparty"
+require 'active_support/core_ext'
 require "makenewsmail/version"
-
-module Makenewsmail
-  # Your code goes here...
-end
+require "makenewsmail/configuration"
+require "makenewsmail/client"
