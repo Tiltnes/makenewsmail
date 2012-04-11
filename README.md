@@ -30,7 +30,7 @@ Create a new subscriberlist:
     
 Create or update a subscriber to a subscriberlist:
 
-    make.subscriber(subscriberlist_id, {
+    make.subscribe(subscriberlist_id, {
       email: "john@example.com",
       firstname: "John",
       lastname: "Doe"

@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["torbjorn.tiltnes@gmail.com"]
   s.homepage    = "https://github.com/tiltnes/makenewsmail"
   s.summary     = %q{Make Newsmail API}
-  s.description = %q{Wrapper for Make Newsmail API}
+  s.description = %q{API Wrapper for Make Newsmail}
 
   s.rubyforge_project = "makenewsmail"
 
